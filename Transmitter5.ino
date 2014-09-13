@@ -44,7 +44,7 @@ void setup(){
   manchester[8] = B00110011; //dummy data
   Serial.begin(115200);
   Serial.println("Transmitter On Air....");//Just to check if you like
-}
+} 
 
 void loop(){
   digitalWrite(ledPin,HIGH);
